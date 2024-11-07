@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         // Valores predefinidos (quemados)
-        byte valorByte = 50;
-        short valorShort = 5000;
+        byte valorByte = 10;
+        short valorShort = 1000;
         int valorInt = 50000;
-        long valorLong = 500000L;
-        float valorFloat = 55.345f;
-        double valorDouble = 55242.6789;
+        long valorLong = 100000L;
+        float valorFloat = 12.345f;
+        double valorDouble = 12345.6789;
+        char valorChar = 'E';  // valorChar es un carácter, por ejemplo, 'A'
 
         // Mostrar las conversiones de cada valor a otro tipo
 
@@ -17,6 +18,7 @@ public class Main {
         System.out.println("Byte -> Long: " + (long) valorByte);
         System.out.println("Byte -> Float: " + (float) valorByte);
         System.out.println("Byte -> Double: " + (double) valorByte);
+        System.out.println("Byte -> Char: " + (char) valorByte); // byte -> char
 
         // Conversion de short
         System.out.println("\nConversión de Short:");
@@ -25,6 +27,7 @@ public class Main {
         System.out.println("Short -> Long: " + (long) valorShort);
         System.out.println("Short -> Float: " + (float) valorShort);
         System.out.println("Short -> Double: " + (double) valorShort);
+        System.out.println("Short -> Char: " + (char) valorShort); // short -> char
 
         // Conversion de int
         System.out.println("\nConversión de Int:");
@@ -33,6 +36,7 @@ public class Main {
         System.out.println("Int -> Long: " + (long) valorInt);
         System.out.println("Int -> Float: " + (float) valorInt);
         System.out.println("Int -> Double: " + (double) valorInt);
+        System.out.println("Int -> Char: " + (char) valorInt); // int -> char
 
         // Conversion de long
         System.out.println("\nConversión de Long:");
@@ -41,6 +45,7 @@ public class Main {
         System.out.println("Long -> Int: " + (int) valorLong);
         System.out.println("Long -> Float: " + (float) valorLong);
         System.out.println("Long -> Double: " + (double) valorLong);
+        System.out.println("Long -> Char: " + (char) valorLong); // long -> char
 
         // Conversion de float
         System.out.println("\nConversión de Float:");
@@ -49,6 +54,7 @@ public class Main {
         System.out.println("Float -> Int: " + (int) valorFloat);
         System.out.println("Float -> Long: " + (long) valorFloat);
         System.out.println("Float -> Double: " + (double) valorFloat);
+        System.out.println("Float -> Char: " + (char) valorFloat); // float -> char
 
         // Conversion de double
         System.out.println("\nConversión de Double:");
@@ -57,6 +63,15 @@ public class Main {
         System.out.println("Double -> Int: " + (int) valorDouble);
         System.out.println("Double -> Long: " + (long) valorDouble);
         System.out.println("Double -> Float: " + (float) valorDouble);
+        System.out.println("Double -> Char: " + (char) valorDouble); // double -> char
 
+        // Conversión de Char
+        System.out.println("\nConversión de Char:");
+        System.out.println("Char -> Byte: " + (byte) valorChar); // char -> byte
+        System.out.println("Char -> Short: " + (short) valorChar); // char -> short
+        System.out.println("Char -> Int: " + (int) valorChar); // char -> int
+        System.out.println("Char -> Long: " + (long) valorChar); // char -> long
+        System.out.println("Char -> Float: " + (float) valorChar); // char -> float
+        System.out.println("Char -> Double: " + (double) valorChar); // char -> double
     }
 }
